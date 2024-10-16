@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  databasechart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-10-16T19:05:18.533332+01:00"
+    description: dynamodb and postgres databases
+    digest: d09106ba981dc06eafbe1e1e96687e09dc6f585bbee23f3aa0f96dac0473db6b
+    name: databasechart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/databasechart-0.1.1.tgz
+    version: 0.1.1
+generated: "2024-10-16T19:05:18.53304+01:00"
