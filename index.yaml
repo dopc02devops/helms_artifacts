@@ -3,12 +3,22 @@ entries:
   databasechart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-16T16:44:11.672339+01:00"
+    created: "2024-10-16T18:50:04.704406+01:00"
+    description: dynamodb and postgres databases
+    digest: b1f033fb85a881ce8c1a9c7887f1791548855973ceba76bf87913662282a718c
+    name: databasechart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/databasechart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-10-16T18:50:04.70491+01:00"
     description: dynamodb and postgres databases
     digest: cd14c1c37da16bc88d97883931b20198020c9d95c67e7f473f976f320d2626dd
     name: databasechart
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/databasechart-0.1.0.tgz
+    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/databasechart-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-16T16:44:11.671962+01:00"
+generated: "2024-10-16T18:50:04.704116+01:00"
