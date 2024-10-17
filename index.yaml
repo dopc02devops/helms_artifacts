@@ -3,22 +3,22 @@ entries:
   bookchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-17T11:55:25.173146+01:00"
+    created: "2024-10-17T12:00:18.801558+01:00"
     dependencies:
     - name: databasechart
       repository: https://dopc02devops.github.io/helms_artifacts
       version: 1.0.0
     description: Book api app
-    digest: f3fa15acb25662dcf5b646c11c33f2da377dc3fedbd1c64a4937b6af68546e3b
+    digest: cf729c5c413f464569384e146ee28cd8580cd2f2d030b836ddfc56feea1eb5c1
     name: bookchart
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/bookchart-1.0.0.tgz
+    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/bookchart-1.0.0.tgz
     version: 1.0.0
   databasechart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-17T11:55:25.173759+01:00"
+    created: "2024-10-17T12:00:18.801997+01:00"
     description: dynamodb and postgres databases
     digest: 88722fdd095bb494f61000bb81f1fbc25c6e704a49abf4310a8ae753f9cc9261
     name: databasechart
@@ -29,12 +29,12 @@ entries:
   employeechart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-17T11:55:25.173311+01:00"
+    created: "2024-10-17T12:00:18.802272+01:00"
     description: Employee api app
     digest: 88b3f3f05ffa6a88b721b11157b4ecad64c9fd3de695ab737a601e5c0aff5f55
     name: employeechart
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/employeechart-1.0.0.tgz
+    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/employeechart-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-17T11:55:25.172699+01:00"
+generated: "2024-10-17T12:00:18.800972+01:00"
