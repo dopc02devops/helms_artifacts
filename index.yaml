@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  bookchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-17T04:05:12.846932+01:00"
+    dependencies:
+    - name: databasechart
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 1.0.0
+    description: Book api app
+    digest: a207aeea1654a11afae3493b1b32b8a43dcab5d224abc45698987b33f7366812
+    name: bookchart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/bookchart-1.0.0.tgz
+    version: 1.0.0
+  databasechart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-10-17T04:05:12.847312+01:00"
+    description: dynamodb and postgres databases
+    digest: 8976bccca8523bab70b4ae35f95ae0dd091a8c8c97959b4308cf00a15d0be503
+    name: databasechart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/databasechart-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-10-17T04:05:12.846468+01:00"
