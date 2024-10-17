@@ -3,7 +3,7 @@ entries:
   bookchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-17T12:19:09.499474+01:00"
+    created: "2024-10-17T12:21:28.383673+01:00"
     dependencies:
     - name: databasechart
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -13,12 +13,30 @@ entries:
     name: bookchart
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/bookchart-1.0.0.tgz
+    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/bookchart-1.0.0.tgz
+    version: 1.0.0
+  chartnginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-17T12:21:28.383027+01:00"
+    dependencies:
+    - name: employeechart
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 1.0.0
+    - name: bookchart
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 1.0.0
+    description: Nginx load balancer
+    digest: 28105484c8c5dd00eb1b4f3f8970b071b3026089e55f870b353e2d25ba1498d0
+    name: chartnginx
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/chartnginx-1.0.0.tgz
     version: 1.0.0
   databasechart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-17T12:19:09.500164+01:00"
+    created: "2024-10-17T12:21:28.38409+01:00"
     description: dynamodb and postgres databases
     digest: 9ac374c6bcae234f100480c2b675fcb6c995aa109b19cf1760de5a954623bb04
     name: databasechart
@@ -29,12 +47,12 @@ entries:
   employeechart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-10-17T12:19:09.499684+01:00"
+    created: "2024-10-17T12:21:28.384494+01:00"
     description: Employee api app
     digest: e40d0e404580aead949e11d10fdf6894b5727896dc35b26c6a00a14b7549fcf9
     name: employeechart
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/employeechart-1.0.0.tgz
+    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/employeechart-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-17T12:19:09.49894+01:00"
+generated: "2024-10-17T12:21:28.382317+01:00"
