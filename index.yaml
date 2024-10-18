@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  postgreschart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-10-18T04:03:49.009319+01:00"
+    description: Postgres database
+    digest: 9aabb5f20e28dd7f7831cbcdfd42ed5b0afe76909c07a84fc5c214965b9a42f3
+    name: postgreschart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/postgreschart-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-10-18T04:03:49.008734+01:00"
