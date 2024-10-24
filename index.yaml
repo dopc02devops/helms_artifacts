@@ -3,7 +3,7 @@ entries:
   bookchart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-24T19:23:06.667216+01:00"
+    created: "2024-10-24T19:25:00.133839+01:00"
     dependencies:
     - name: chartpostgress
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -18,9 +18,9 @@ entries:
   chartgrafana:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-24T19:23:06.666653+01:00"
+    created: "2024-10-24T19:25:00.133004+01:00"
     description: A Helm chart for Grafana and Prometheus
-    digest: b98e86c652fe14ceb6a0ae81eb249a24964ba082538673a747831df3f0c6f195
+    digest: 906ba9f10ccb5750fd9a629fce17b988c3128d419259b64430a9265fd2f35579
     name: chartgrafana
     type: application
     urls:
@@ -28,9 +28,9 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-24T19:23:06.667531+01:00"
+    created: "2024-10-24T19:25:00.134365+01:00"
     description: A Helm chart for Grafana and Prometheus
-    digest: dcea38b36b00716648e8358c3cb3871446c7481d5005e4f85eaa33246a61597c
+    digest: b98e86c652fe14ceb6a0ae81eb249a24964ba082538673a747831df3f0c6f195
     name: chartgrafana
     type: application
     urls:
@@ -39,7 +39,7 @@ entries:
   chartnginx:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-24T19:23:06.669238+01:00"
+    created: "2024-10-24T19:25:00.135382+01:00"
     dependencies:
     - name: employeechart
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -57,7 +57,7 @@ entries:
   chartpostgress:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-24T19:23:06.66962+01:00"
+    created: "2024-10-24T19:25:00.135752+01:00"
     description: Postgres database
     digest: 5b4b3f877b512044451cb8d3a206d980e9b0943b544d06a603b21eb76f9fb7c9
     name: chartpostgress
@@ -68,7 +68,7 @@ entries:
   dynamodbchart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-24T19:23:06.669988+01:00"
+    created: "2024-10-24T19:25:00.136131+01:00"
     description: dynamodb databases
     digest: bd36f9cef33211ac642d67a4f88e9ed7864bdb73eb25c5602a7a474132dc8fc6
     name: dynamodbchart
@@ -79,7 +79,7 @@ entries:
   employeechart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-24T19:23:06.670414+01:00"
+    created: "2024-10-24T19:25:00.136555+01:00"
     dependencies:
     - name: dynamodbchart
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -91,4 +91,4 @@ entries:
     urls:
     - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/employeechart-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-24T19:23:06.666331+01:00"
+generated: "2024-10-24T19:25:00.132702+01:00"
