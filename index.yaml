@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  chartpostgress:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-10-29T04:42:45.783398Z"
+    description: Postgres database
+    digest: 50d1202c6519d55011222a3bfbee7f8c6e6ba9ac2e0985b14d685b17ca3cd26e
+    name: chartpostgress
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/chartpostgress-1.0.0.tgz
+    version: 1.0.0
+  dynamodbchart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-10-29T04:42:45.783577Z"
+    description: dynamodb databases
+    digest: 99ace633f1f0b5b41215cefe5ac44eef4b9696bdaa093c5ab3fb621bca0f5443
+    name: dynamodbchart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/dynamodbchart-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-10-29T04:42:45.782797Z"
