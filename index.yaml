@@ -1,25 +1,75 @@
 apiVersion: v1
 entries:
+  bookchart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-10-29T04:48:07.087705Z"
+    dependencies:
+    - name: chartpostgress
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 1.0.0
+    description: Book api app
+    digest: e423e314fa8907d67092b05f5f483e8441d83aa30e7a3c9d113c178918d14af3
+    name: bookchart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/bookchart-1.0.0.tgz
+    version: 1.0.0
   chartpostgress:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-29T04:42:45.783398Z"
+    created: "2024-10-29T04:48:07.087913Z"
     description: Postgres database
-    digest: 50d1202c6519d55011222a3bfbee7f8c6e6ba9ac2e0985b14d685b17ca3cd26e
+    digest: 6800e843f301d62575278357d31ef9eaf14e32d69e4521a8700d73079d346abc
     name: chartpostgress
     type: application
     urls:
     - https://dopc02devops.github.io/helms_artifacts/chartpostgress-1.0.0.tgz
     version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-10-29T04:48:07.089585Z"
+    description: Postgres database
+    digest: 50d1202c6519d55011222a3bfbee7f8c6e6ba9ac2e0985b14d685b17ca3cd26e
+    name: chartpostgress
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/chartpostgress-1.0.0.tgz
+    version: 1.0.0
   dynamodbchart:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-29T04:42:45.783577Z"
+    created: "2024-10-29T04:48:07.088559Z"
     description: dynamodb databases
-    digest: 99ace633f1f0b5b41215cefe5ac44eef4b9696bdaa093c5ab3fb621bca0f5443
+    digest: bd7db57749fa12939c9d015f0a49eff34e4ae28ef84853ff1a39f8120d3b82a6
     name: dynamodbchart
     type: application
     urls:
     - https://dopc02devops.github.io/helms_artifacts/dynamodbchart-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-29T04:42:45.782797Z"
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-10-29T04:48:07.08986Z"
+    description: dynamodb databases
+    digest: 99ace633f1f0b5b41215cefe5ac44eef4b9696bdaa093c5ab3fb621bca0f5443
+    name: dynamodbchart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/dynamodbchart-1.0.0.tgz
+    version: 1.0.0
+  employeechart:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-10-29T04:48:07.089265Z"
+    dependencies:
+    - name: dynamodbchart
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 1.0.0
+    description: Employee api app
+    digest: 33f5ee28586c788a25cbb04ebabd73822ce1241324fdbf0faa52c323b321071d
+    name: employeechart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/employeechart-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-10-29T04:48:07.08714Z"
