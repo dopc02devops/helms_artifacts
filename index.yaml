@@ -3,7 +3,7 @@ entries:
   bookchart:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-11-15T13:29:07.016133Z"
+    created: "2024-11-15T13:42:15.591632Z"
     dependencies:
     - name: chartpostgress
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -13,11 +13,11 @@ entries:
     name: bookchart
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/bookchart-1.0.1.tgz
+    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/bookchart-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-15T13:29:07.017476Z"
+    created: "2024-11-15T13:42:15.591105Z"
     dependencies:
     - name: chartpostgress
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -32,7 +32,7 @@ entries:
   chartgrafana:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-15T13:29:07.018529Z"
+    created: "2024-11-15T13:42:15.591945Z"
     description: A Helm chart for Grafana and Prometheus
     digest: df59e0a4218521e4505b29114308dd9310e9eeab12dd6e23a03b98d8ccf61b1a
     name: chartgrafana
@@ -43,7 +43,7 @@ entries:
   chartnginx:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-15T13:29:07.020025Z"
+    created: "2024-11-15T13:42:15.592825Z"
     dependencies:
     - name: employeechart
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -61,7 +61,17 @@ entries:
   chartpostgress:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-11-15T13:29:07.021131Z"
+    created: "2024-11-15T13:42:15.590519Z"
+    description: Postgres database
+    digest: f4d6996e938fcf1e142e4556beac26d5858b890ba2657d7c051708561d562314
+    name: chartpostgress
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/chartpostgress-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2024-11-15T13:42:15.593494Z"
     description: Postgres database
     digest: 7d2da18b3d28d9a75ac35f31fbfac293dd29a60636e5f22ce0326cce97446143
     name: chartpostgress
@@ -71,7 +81,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-15T13:29:07.020549Z"
+    created: "2024-11-15T13:42:15.593184Z"
     description: Postgres database
     digest: 2097b630cf0a4bcdb9e3c0132656b2d466fff3ae79b77d57d854b6fbd987dd0d
     name: chartpostgress
@@ -82,7 +92,7 @@ entries:
   dynamodbchart:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-11-15T13:29:07.021835Z"
+    created: "2024-11-15T13:42:15.594413Z"
     description: dynamodb databases
     digest: 1033f7a425527bef2adf0534bccd870528172458a8e24d4e13364de9bbb7a04a
     name: dynamodbchart
@@ -92,7 +102,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-15T13:29:07.021523Z"
+    created: "2024-11-15T13:42:15.593764Z"
     description: dynamodb databases
     digest: c9af9aa9db11ede028c6ee2059f87475312d07c7d748ebb54e1fc3b040526fd3
     name: dynamodbchart
@@ -103,7 +113,7 @@ entries:
   employeechart:
   - apiVersion: v2
     appVersion: 1.0.1
-    created: "2024-11-15T13:29:07.016612Z"
+    created: "2024-11-15T13:42:15.59532Z"
     dependencies:
     - name: dynamodbchart
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -113,11 +123,11 @@ entries:
     name: employeechart
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/employeechart-1.0.1.tgz
+    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/employeechart-1.0.1.tgz
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-15T13:29:07.022351Z"
+    created: "2024-11-15T13:42:15.594894Z"
     dependencies:
     - name: dynamodbchart
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -129,4 +139,4 @@ entries:
     urls:
     - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/employeechart-1.0.0.tgz
     version: 1.0.0
-generated: "2024-11-15T13:29:07.01534Z"
+generated: "2024-11-15T13:42:15.589926Z"
