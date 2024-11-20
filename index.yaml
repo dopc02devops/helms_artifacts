@@ -3,7 +3,21 @@ entries:
   bookchart:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-20T05:15:13.21621Z"
+    created: "2024-11-20T05:31:04.251427Z"
+    dependencies:
+    - name: chartpostgress
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 3.0.0
+    description: Book api app
+    digest: aa03c8a4915de2eaf24dba5d770ddbb6a5ccb6053b13155cab7511818d42a707
+    name: bookchart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/bookchart-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2024-11-20T05:31:04.252346Z"
     dependencies:
     - name: chartpostgress
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -18,7 +32,7 @@ entries:
   chartnginx:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-20T05:15:13.215571Z"
+    created: "2024-11-20T05:31:04.253277Z"
     dependencies:
     - name: employeechart
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -31,12 +45,26 @@ entries:
     name: chartnginx
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/chartnginx-3.0.0.tgz
+    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/chartnginx-3.0.0.tgz
     version: 3.0.0
   employeechart:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-20T05:15:13.216661Z"
+    created: "2024-11-20T05:31:04.251784Z"
+    dependencies:
+    - name: dynamodbchart
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 3.0.0
+    description: Employee api app
+    digest: bd35b2ecbc671be17bfbb6f027eb9535eb26873484dc63990f533bee81dea8c6
+    name: employeechart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/employeechart-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2024-11-20T05:31:04.253634Z"
     dependencies:
     - name: dynamodbchart
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -48,4 +76,4 @@ entries:
     urls:
     - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/employeechart-3.0.0.tgz
     version: 3.0.0
-generated: "2024-11-20T05:15:13.214602Z"
+generated: "2024-11-20T05:31:04.247837Z"
