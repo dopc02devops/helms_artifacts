@@ -3,7 +3,7 @@ entries:
   bookchart:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-20T15:47:49.388335Z"
+    created: "2024-11-20T15:50:56.210482Z"
     dependencies:
     - name: chartpostgress
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -13,12 +13,30 @@ entries:
     name: bookchart
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/bookchart-3.0.0.tgz
+    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/bookchart-3.0.0.tgz
+    version: 3.0.0
+  chartnginx:
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2024-11-20T15:50:56.209903Z"
+    dependencies:
+    - name: employeechart
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 3.0.0
+    - name: bookchart
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 3.0.0
+    description: Nginx load balancer
+    digest: c18c3d5156e73972759507de169d2e00ba0f028a4956b206cc8b1a04dbbd9252
+    name: chartnginx
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/chartnginx-3.0.0.tgz
     version: 3.0.0
   chartpostgress:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-20T15:47:49.389138Z"
+    created: "2024-11-20T15:50:56.210869Z"
     description: Postgres database
     digest: 6b5c6fc4729e750bad88687a2973b31d75205dfd873a58d5a2b88ce9ab49eba8
     name: chartpostgress
@@ -29,7 +47,7 @@ entries:
   dynamodbchart:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-20T15:47:49.389564Z"
+    created: "2024-11-20T15:50:56.21125Z"
     description: dynamodb databases
     digest: f94ac6fba9c657c20ed97b1f4c510c19a6e4872d2bf5c6a7f0d88ab8e1065fe0
     name: dynamodbchart
@@ -40,7 +58,7 @@ entries:
   employeechart:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-20T15:47:49.388676Z"
+    created: "2024-11-20T15:50:56.212477Z"
     dependencies:
     - name: dynamodbchart
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -50,6 +68,6 @@ entries:
     name: employeechart
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/employeechart-3.0.0.tgz
+    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/employeechart-3.0.0.tgz
     version: 3.0.0
-generated: "2024-11-20T15:47:49.387855Z"
+generated: "2024-11-20T15:50:56.209001Z"
