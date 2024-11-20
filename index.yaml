@@ -1,68 +1,25 @@
 apiVersion: v1
 entries:
-  bookchart:
+  chartpostgress:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-20T05:34:23.087994Z"
-    dependencies:
-    - name: chartpostgress
-      repository: https://dopc02devops.github.io/helms_artifacts
-      version: 3.0.0
-    description: Book api app
-    digest: aa03c8a4915de2eaf24dba5d770ddbb6a5ccb6053b13155cab7511818d42a707
-    name: bookchart
+    created: "2024-11-20T13:16:44.616509Z"
+    description: Postgres database
+    digest: c90a91efd634765bae2ddea7bb12f786024c5be561b307508b5f727c9b78ddd7
+    name: chartpostgress
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/bookchart-3.0.0.tgz
+    - https://dopc02devops.github.io/helms_artifacts/chartpostgress-3.0.0.tgz
     version: 3.0.0
-  chartnginx:
+  dynamodbchart:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-20T05:34:23.08628Z"
-    dependencies:
-    - name: employeechart
-      repository: https://dopc02devops.github.io/helms_artifacts
-      version: 3.0.0
-    - name: bookchart
-      repository: https://dopc02devops.github.io/helms_artifacts
-      version: 3.0.0
-    description: Nginx load balancer
-    digest: 5fc5c4091102969981210e2b2f8a871546fafc2a340789cfcd1e30183284ad90
-    name: chartnginx
+    created: "2024-11-20T13:16:44.616742Z"
+    description: dynamodb databases
+    digest: 22fe5485bf836a6fc1dc8363581904d2b930c4757388c9b69525cf946a21eb44
+    name: dynamodbchart
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/chartnginx-3.0.0.tgz
+    - https://dopc02devops.github.io/helms_artifacts/dynamodbchart-3.0.0.tgz
     version: 3.0.0
-  - apiVersion: v2
-    appVersion: 3.0.0
-    created: "2024-11-20T05:34:23.088976Z"
-    dependencies:
-    - name: employeechart
-      repository: https://dopc02devops.github.io/helms_artifacts
-      version: 3.0.0
-    - name: bookchart
-      repository: https://dopc02devops.github.io/helms_artifacts
-      version: 3.0.0
-    description: Nginx load balancer
-    digest: af5912365bba41556f17de0acdf83bc4221769121be3ef5c6f57ac5d91239712
-    name: chartnginx
-    type: application
-    urls:
-    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/chartnginx-3.0.0.tgz
-    version: 3.0.0
-  employeechart:
-  - apiVersion: v2
-    appVersion: 3.0.0
-    created: "2024-11-20T05:34:23.089384Z"
-    dependencies:
-    - name: dynamodbchart
-      repository: https://dopc02devops.github.io/helms_artifacts
-      version: 3.0.0
-    description: Employee api app
-    digest: bd35b2ecbc671be17bfbb6f027eb9535eb26873484dc63990f533bee81dea8c6
-    name: employeechart
-    type: application
-    urls:
-    - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/employeechart-3.0.0.tgz
-    version: 3.0.0
-generated: "2024-11-20T05:34:23.085388Z"
+generated: "2024-11-20T13:16:44.615858Z"
