@@ -3,7 +3,21 @@ entries:
   bookchart:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-28T15:17:54.079235Z"
+    created: "2024-11-29T03:31:28.295222Z"
+    dependencies:
+    - name: chartpostgress
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 3.0.0
+    description: Book api app
+    digest: c7bbb6b76401d6712f8a67d07bcc24f7d85fd9f0f627aacf9b8dc6f2dd760f08
+    name: bookchart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/bookchart-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2024-11-29T03:31:28.298477Z"
     dependencies:
     - name: chartpostgress
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -18,7 +32,7 @@ entries:
   chartnginx:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-28T15:17:54.078699Z"
+    created: "2024-11-29T03:31:28.295926Z"
     dependencies:
     - name: employeechart
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -27,7 +41,7 @@ entries:
       repository: https://dopc02devops.github.io/helms_artifacts
       version: 3.0.0
     description: Nginx load balancer
-    digest: c9466f8a4777cc013d86ea7ea3713cd11747257db9b669a22f0ef53457098bcd
+    digest: 13f96bd79e35229f24d18fd5e1e8e1c676da96e2391b6de2877b68f761a124bd
     name: chartnginx
     type: application
     urls:
@@ -36,7 +50,17 @@ entries:
   chartpostgress:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-28T15:17:54.07959Z"
+    created: "2024-11-29T03:31:28.297323Z"
+    description: Postgres database
+    digest: 9aef8481d3877848a48eb1941d8c369ee405d5e226bab8069025e78bc0042afc
+    name: chartpostgress
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/chartpostgress-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2024-11-29T03:31:28.298888Z"
     description: Postgres database
     digest: a5a277ab771c0967e4c79c22dd4cc7886595ed34e49811c3b19e721d34fb15c6
     name: chartpostgress
@@ -47,7 +71,17 @@ entries:
   dynamodbchart:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-28T15:17:54.079932Z"
+    created: "2024-11-29T03:31:28.29759Z"
+    description: dynamodb databases
+    digest: 1a6c3f768d07fb5d6327e50e1db720d92c8dcfeaac8378304e9fa5ed88d5710b
+    name: dynamodbchart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/dynamodbchart-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2024-11-29T03:31:28.299321Z"
     description: dynamodb databases
     digest: 0a37241354752f952793d634fc29676923ecb6bc15219a7cd1b70c3856f8417d
     name: dynamodbchart
@@ -58,7 +92,21 @@ entries:
   employeechart:
   - apiVersion: v2
     appVersion: 3.0.0
-    created: "2024-11-28T15:17:54.080346Z"
+    created: "2024-11-29T03:31:28.297893Z"
+    dependencies:
+    - name: dynamodbchart
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 3.0.0
+    description: Employee api app
+    digest: 9ea43f1cc46f1ddab94d18f7d6daf7d9a524fd8bf0f48ea432bd014f54561dd2
+    name: employeechart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/employeechart-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2024-11-29T03:31:28.300215Z"
     dependencies:
     - name: dynamodbchart
       repository: https://dopc02devops.github.io/helms_artifacts
@@ -70,4 +118,4 @@ entries:
     urls:
     - https://dopc02devops.github.io/helms_artifacts/helms_artifacts/employeechart-3.0.0.tgz
     version: 3.0.0
-generated: "2024-11-28T15:17:54.077807Z"
+generated: "2024-11-29T03:31:28.29475Z"
