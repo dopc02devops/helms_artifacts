@@ -1,14 +1,18 @@
 apiVersion: v1
 entries:
-  memcached-chart:
+  flask-memcached-chart:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-01-15T06:40:54.071044Z"
-    description: a helm Kubernetes data base chart
-    digest: 05e0c6a679c741b282a970992728e9acb8f48f71bf661147b97932133bda98f8
-    name: memcached-chart
+    created: "2025-01-15T06:58:32.021983Z"
+    dependencies:
+    - name: memcached-chart
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 0.1.0
+    description: flask memcached application for caching and setting ttl
+    digest: 5710f430fc4c1927182246adba315c3f4bcb0cd2919e8e9f206ef5135e79a27d
+    name: flask-memcached-chart
     type: application
     urls:
-    - https://dopc02devops.github.io/helms_artifacts/memcached-chart-0.1.0.tgz
+    - https://dopc02devops.github.io/helms_artifacts/flask-memcached-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-15T06:40:54.07055Z"
+generated: "2025-01-15T06:58:32.021248Z"
