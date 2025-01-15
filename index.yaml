@@ -3,27 +3,51 @@ entries:
   flask-memcached-chart:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-01-15T10:19:51.788608Z"
+    created: "2025-01-15T10:25:19.02941Z"
     dependencies:
     - name: memcached-chart
       repository: https://dopc02devops.github.io/helms_artifacts
       version: 0.1.0
     description: flask memcached application for caching and setting ttl
-    digest: 763c30be26f765bdf361c4e68dc6d25f43604a2c22307a7e542846a7cd5edcfe
+    digest: c46c4cf73b1fb8c40e8915e44f4cfb7887c7026b1a42df36fd45b593d4168b21
     name: flask-memcached-chart
     type: application
     urls:
     - https://dopc02devops.github.io/helms_artifacts/flask-memcached-chart-0.1.0.tgz
     version: 0.1.0
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-01-15T10:25:19.030552Z"
+    dependencies:
+    - name: memcached-chart
+      repository: https://dopc02devops.github.io/helms_artifacts
+      version: 0.1.0
+    description: flask memcached application for caching and setting ttl
+    digest: fcc6f3867bd4438205339e45e80f9d25204965a2c98cca3e9060210798c66ab4
+    name: flask-memcached-chart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/download/flask-memcached-chart-0.1.0.tgz
+    version: 0.1.0
   memcached-chart:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-01-15T10:19:51.788753Z"
+    created: "2025-01-15T10:25:19.02995Z"
     description: a helm Kubernetes data base chart
-    digest: 455a60383eacaae868d92f4c98c892d8b8995b15800e84bf906806e92a8c35de
+    digest: f7264db3ca52857e15220f9495d7c759ffac3b9fe1a085be436a16c2ba67d055
     name: memcached-chart
     type: application
     urls:
     - https://dopc02devops.github.io/helms_artifacts/memcached-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-15T10:19:51.788165Z"
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-01-15T10:25:19.030972Z"
+    description: a helm Kubernetes data base chart
+    digest: ada74d7fb746005f4c2f7a799aa800447a007c389910ab00a187d19e706e6c5f
+    name: memcached-chart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/download/memcached-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-01-15T10:25:19.028558Z"
