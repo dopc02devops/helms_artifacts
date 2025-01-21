@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  memcached-chart:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-01-21T15:43:51.310399Z"
+    description: a helm Kubernetes data base chart
+    digest: 8306c01af17bebc03616759cd784ada76125838156d8896ef79bdefd556e2ec1
+    name: memcached-chart
+    type: application
+    urls:
+    - https://dopc02devops.github.io/helms_artifacts/memcached-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-01-21T15:43:51.310148Z"
